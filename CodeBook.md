@@ -22,5 +22,6 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 The used vriables in the code are 
 features, testdata, traindata, test_subject_id, test_activity_id, train_subject_id, test_data, train_data, all_data,mean_col_index, Mean_col_names,std_col,idx
+
 # The Data transformation
 The data change was by reading all the data sets, then merge the trainning data and the testing data to pproduce one data set. Then the r program extract only the measurments on the mean and standard deviation for each measrement
