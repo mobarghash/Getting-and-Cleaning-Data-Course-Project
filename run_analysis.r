@@ -30,7 +30,7 @@ if (!("reshape2" %in% rownames(installed.packages())) ) {
   test_subject_id <- read.table("./test/subject_test.txt")
   colnames(test_subject_id) <- "subject_id"
   
-  ## Read the activity id's of the test data and label the the dataframe's columns(notsure aout this)
+  ## Read the activity id's of the test data and label the the dataframe's columns
   test_activity_id <- read.table("./test/y_test.txt")
   colnames(test_activity_id) <- "activity_id"
   
