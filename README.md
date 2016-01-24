@@ -7,4 +7,4 @@ This rep contains four files
 - Readme.md
 - run_analysis.r
 - Codebook.md
-- tidy_data.txt
+- tidy_movement_data.txt
